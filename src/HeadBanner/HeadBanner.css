@@ -1,0 +1,106 @@
+.head-about {
+  background-image: url("../img/background1.jpg");
+  height: 1080px;
+  background-position: top;
+  width: 100%;
+  background-size: cover;
+  flex-direction: column;
+  padding: 200px 300px;
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
+}
+.head-about-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  opacity: 0.2;
+  z-index: 0;
+}
+.head-about-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  letter-spacing: 1px;
+  z-index: 5;
+  width: 60%;
+}
+.head-about-content > p:nth-of-type(1) {
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+.head-about-content > p:nth-of-type(2) {
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  transition: 0.3s ease;
+}
+.head-about-content > p:nth-of-type(2):hover {
+  color: #b79b6c;
+  border-bottom: 2px solid #b79b6c;
+}
+.head-about-content > p:nth-of-type(3) {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+}
+.head-about-content > p:nth-of-type(4) {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 28px;
+}
+.head-about .buy-btn {
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(51, 54, 59);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: bold;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: 0;
+  transition: 0.2s ease-in-out;
+}
+.head-about .buy-btn:hover {
+  background-color: var(--accent);
+  cursor: pointer;
+}
+.head-about .adress {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-top: 50px;
+}
+.head-about .adress-city-card {
+  border-top: 2px solid rgb(51, 54, 59);
+  padding: 22px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: flex-start;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  gap: 10px;
+  width: 300px;
+}
+.head-about .adress-city-card > p:nth-of-type(1) {
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+}
+.head-about .adress-city-card > p:nth-of-type(2) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=HeadBanner.css.map */
