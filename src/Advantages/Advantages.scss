@@ -1,0 +1,62 @@
+@import "../variables/variables";
+
+
+.adv{
+  width: $container-width;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(228,238,219);
+  padding: 50px 350px;
+  margin-top: 80px;
+  >{
+    p:nth-of-type(1){
+      font-family: $barlow;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    p:nth-of-type(2){
+      font-family: $barlow;
+      font-size: 50px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      text-align: center;
+    }
+    p:nth-of-type(3){
+      font-family: $barlow;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+  &-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: max-content;
+    p{
+      font-family: $barlow;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    &-items{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      border-right: 1px solid black;
+      padding: 0 50px;
+    }
+    &-items:nth-last-of-type(1){
+      border-right: 0;
+    }
+  }
+}

@@ -1,12 +1,11 @@
 import './Header.css';
 
 
-const Header = () =>{
-    return(
-        <header>
+const Header = () => {
+    return (<header>
             <div className="header-logo">
                 <img src="https://mobirise.com/extensions/depotamp/assets/images/logo1.png"/>
-                    <p>DepotAMP</p>
+                <p>DepotAMP</p>
             </div>
             <div className="header-menu">
                 <div className="dropdown">
@@ -35,8 +34,7 @@ const Header = () =>{
                 </div>
             </div>
             <button className="buy-btn">Buy Now</button>
-        </header>
-)
+        </header>)
 }
 
 

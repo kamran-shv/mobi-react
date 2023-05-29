@@ -1,8 +1,7 @@
 import './HeadBanner.css'
 
-const HeadBanner = () =>{
-    return(
-        <div className="head-about">
+const HeadBanner = () => {
+    return (<div className="head-about">
             <div className="head-about-overlay"></div>
             <div className="head-about-content">
                 <p>MAY-2019 #depotamp</p>
@@ -14,7 +13,7 @@ const HeadBanner = () =>{
                     choice of furniture. Visit your regional store to browse even more and also
                     purchase. What do you think of the Furniture Store Template?</p>
                 <button className="buy-btn">Shop Now</button>
-                </div>
+            </div>
             <div className="adress">
                 <div className="adress-city-card">
                     <p>London, UK</p>
@@ -25,8 +24,7 @@ const HeadBanner = () =>{
                     <p>Franklin Street 160-D</p>
                 </div>
             </div>
-        </div>
-    )
+        </div>)
 }
 
 export default HeadBanner;

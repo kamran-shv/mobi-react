@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700&family=Playfair+Display&display=swap");
+.adv {
+  width: 1380px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(228, 238, 219);
+  padding: 50px 350px;
+  margin-top: 80px;
+}
+.adv > p:nth-of-type(1) {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.adv > p:nth-of-type(2) {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center;
+}
+.adv > p:nth-of-type(3) {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-align: center;
+}
+.adv-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: max-content;
+}
+.adv-cards p {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.adv-cards-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  border-right: 1px solid black;
+  padding: 0 50px;
+}
+.adv-cards-items:nth-last-of-type(1) {
+  border-right: 0;
+}
+
+/*# sourceMappingURL=Advantages.css.map */
